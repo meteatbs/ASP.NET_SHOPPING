@@ -1,0 +1,6 @@
+c:\users\metea\documents\visual studio 2010\Projects\Demo_shoppingSite\Demo_shoppingSite\bin\Demo_shoppingSite.dll
+c:\users\metea\documents\visual studio 2010\Projects\Demo_shoppingSite\Demo_shoppingSite\bin\Demo_shoppingSite.pdb
+c:\users\metea\documents\visual studio 2010\Projects\Demo_shoppingSite\Demo_shoppingSite\obj\Debug\Demo_shoppingSite.dll
+c:\users\metea\documents\visual studio 2010\Projects\Demo_shoppingSite\Demo_shoppingSite\obj\Debug\Demo_shoppingSite.pdb
+C:\Users\metea\documents\visual studio 2010\Projects\Demo_shoppingSite\Demo_shoppingSite\bin\itextsharp.dll
+C:\Users\metea\documents\visual studio 2010\Projects\Demo_shoppingSite\Demo_shoppingSite\obj\Debug\Demo_shoppingSite.csprojResolveAssemblyReference.cache

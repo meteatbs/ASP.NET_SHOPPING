@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Demo_shoppingSite.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<script src="JavaScript/jquery-1.6.1.min.js" type="text/javascript"></script>
+    <title></title>
+    <style>
+    .navbar
+    {
+        background:#00c3ff;
+        background:-webkit-linear-gradient(to right,#ffff1c,#00c3ff);
+        background:linear-gradient(to right,#ffff1c,#00c3ff);
+        }
+        .button
+        {
+            background: #0052D4;
+            background:-webkit-linear-gradient(to right,#6FB1FC,#4364F7,#0052D4);
+            background:linear-gradient(to right,#6FB1FC,#4364F7,#0052D4);
+            }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <table align="center">
+    <tr style="width:1200px;color:Aqua;height:160px">
+    <td>
+        <asp:Image ID="Image1" runat="server" BorderColor="#666666" BorderWidth="3px" Height="160px" Width="1200px" ImageUrl="~/Images/adminbanner.PNG" />
+    </td>
+    </tr>
+    <tr style="border-width:8px;border-color:#666666;width:1200px;color:#666666;height:60px" bgcolor="#c547ff">
+    <td>
+    <div class="navbar">
+    <table align="center" cellpadding="10">
+    <tr style="border-color:#666666;">
+    <td>
+        <asp:Button CssClass="button" ID="btnCategory" runat="server"  
+            Text="Add Category" Height="49px" Width="171px" Font-Bold="true"
+        Font-Size="Medium" CausesValidation="false" BorderColor="#666666" 
+            onclick="btnCategory_Click" />
+    </td>
+
+     <td>
+        <asp:Button CssClass="button" ID="btnAddProduct" runat="server" 
+             Text="Add Product" Height="49px" Width="171px" Font-Bold="true"
+        Font-Size="Medium" CausesValidation="false" BorderColor="#666666" 
+             onclick="btnAddProduct_Click" />
+    </td>
+
+     <td>
+        <asp:Button CssClass="button" ID="btnUpdate" runat="server" 
+             Text="Update Product" Height="49px" Width="171px" Font-Bold="true"
+        Font-Size="Medium" CausesValidation="false" BorderColor="#666666" 
+             onclick="btnUpdate_Click" />
+    </td>
+
+    <td>
+        <asp:Button CssClass="button" ID="btnOrderStatus" runat="server"  
+            Text="Order Status" Height="49px" Width="171px" Font-Bold="true"
+        Font-Size="Medium" CausesValidation="false" BorderColor="#666666" 
+            onclick="btnOrderStatus_Click" />
+    </td>
+
+    <td>
+        <asp:Button CssClass="button" ID="btnLogout" runat="server"  Text="Logut" 
+            Height="49px" Width="171px" Font-Bold="true"
+        Font-Size="Medium" CausesValidation="false" BorderColor="#666666" 
+            onclick="Button3_Click" />
+    </td>
+    </tr>
+    </table>
+    </div>
+    </td>
+    </tr>
+    <tr>
+    <td>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </td>
+    </tr>
+    </table>
+       
+    </div>
+    </form>
+</body>
+</html>
